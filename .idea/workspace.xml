@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce12c41b-1eb0-46df-aa24-4c6c9e129806" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Condition.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Greeter$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Greeter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Greeting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/HelloWorldGreeting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/RunnableExample$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/RunnableExample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/TypeInferenceExample$StringLenghtLambda.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/TypeInferenceExample.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1Exe.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1ExeJava7$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1ExeJava7$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1ExeJava7$3.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1ExeJava7.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/Unit1ExeJava8.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/io/sri/myLambda.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -424,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1522007393551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Revert &quot;Initial commit&quot;&#10;&#10;This reverts commit 1a1b258e809a1ab8cc928ff0f1bae879f93f0cf6.">
+      <created>1522007468672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522007468672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
