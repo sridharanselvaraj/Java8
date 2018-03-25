@@ -1,4 +1,4 @@
-package io.sri;
+package io.sri.unit1;
 
 public class Greeter {
 

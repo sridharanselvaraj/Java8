@@ -1,11 +1,14 @@
-package io.sri;
+package io.sri.unit2;
+
+import io.sri.unit1.Person;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
-public class Unit1ExeJava8 {
+public class StandardFunctionInterfaceExample {
 
     public static void main(String[] args) {
         List<Person> people = Arrays.asList(
@@ -22,24 +25,24 @@ public class Unit1ExeJava8 {
 
         // create a method that prints all elements in the list
         System.out.println("Print All person : ");
-        printConditionally(people,p -> true);
+        performCondtionally(people,p -> true,p -> System.out.println(p));
 
         // create a method that prints all people that have last name beginning with K
         System.out.println("Print all people that have last name beginning with K");
-        printConditionally(people, p -> p.getLastName().startsWith("K"));
+        performCondtionally(people, p -> p.getLastName().startsWith("K"),p -> System.out.println(p));
 
         // create a method that prints all people that have first name beginning with I
         System.out.println("Print all people that have first name beginning with I");
-        printConditionally(people,p -> p.getFirstName().startsWith("I"));
+        performCondtionally(people,p -> p.getFirstName().startsWith("I"),p -> System.out.println(p.getFirstName()));
 
     }
 
-    private static void printConditionally(List<Person> people,Condition condition) {
+    private static void performCondtionally(List<Person> people, Predicate<Person> predicate, Consumer<Person> consumer) {
 
         for(Person p: people)
         {
-            if(condition.test(p))
-                System.out.println(p);
+            if(predicate.test(p))
+                consumer.accept(p);
         }
     }
 
